@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+let ${1:Name} = React.createClass({
+  render() {
+    return (
+      ${2:Code}
+    );
+  },
+});
+
+export default ${1:Name};
+
+]]></content>
+  <tabTrigger>rcn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
