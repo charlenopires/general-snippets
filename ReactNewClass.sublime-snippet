@@ -5,7 +5,9 @@ import React from 'react';
 let ${1:Name} = React.createClass({
   render() {
     return (
-      ${2:Code}
+      <div>
+        ${2:Code}
+      </div>
     );
   },
 });
