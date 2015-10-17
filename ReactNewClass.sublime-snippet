@@ -2,7 +2,7 @@
   <content><![CDATA[
 import React from 'react';
 
-let ${1:Name} = React.createClass({
+export class ${1:Name} extends React.Component {
   render() {
     return (
       <div>
@@ -10,9 +10,7 @@ let ${1:Name} = React.createClass({
       </div>
     );
   },
-});
-
-export default ${1:Name};
+};
 
 ]]></content>
   <tabTrigger>rcn</tabTrigger>
